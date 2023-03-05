@@ -8,9 +8,9 @@ function App() {
   console.log('App running!')
   return (
     <Router>
-      <Header>
+      {/* <Header>
         <Navigation />
-      </Header>
+      </Header> */}
       <Main>
         <Routes>
           <Route path='/' element={<HomePage />} />
