@@ -1,5 +1,5 @@
 const Project = (props) => {
-  const project = props.propsObject
+  const project = props.propsObject.project
   return (
     <div>
       <a href={project.github}><h3>{project.name}</h3></a>
