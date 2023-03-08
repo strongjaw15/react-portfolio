@@ -4,12 +4,20 @@ const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
 const ContactPage = () => {
 
+  // const [formData, setFormData] = useState({
+  //   subject: '',
+  //   email: '',
+  //   name:'',
+  //   message:'',
+  // })
+
   const [subject, setSubject] = useState('')
   const [email, setEmail] = useState('')
   const [name, setName] = useState('')
   const [message, setMessage] = useState('')
 
   const emailLink = `mailto:wengersc@gmail.com?subject=/${subject}&body='From ${name}, ${email}: ${message}'`
+  console.log(emailLink)
 
   const send = (event) => {
     event.preventDefault();

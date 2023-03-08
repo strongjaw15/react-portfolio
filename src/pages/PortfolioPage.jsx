@@ -1,6 +1,8 @@
 import {Project} from '../components'
 import projects from '../assets/projects/projects'
 
+import '../assets/style/portfolio-page.css'
+
 const PortfolioPage = () => {
   return (
     <section className="portfolio-page">
