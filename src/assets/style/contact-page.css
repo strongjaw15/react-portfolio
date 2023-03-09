@@ -1,0 +1,35 @@
+.contact-page {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+input, textarea {
+  text-align: center;
+  width: 80%;
+}
+
+form button {
+  margin-top: 2rem;
+  width: 40%
+}
+
+@media screen and (max-width: 992px) {
+
+}

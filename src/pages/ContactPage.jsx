@@ -1,5 +1,7 @@
 import {useState} from 'react'
 
+import '../assets/style/contact-page.css'
+
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
 
 const ContactPage = () => {
@@ -30,7 +32,7 @@ const ContactPage = () => {
       <form>
         <label>
           Your Name: 
-          <input type="text" placeholder='Logan Miller' value={name} onChange={event => setName(event.target.value)}/>
+          <input type="text" placeholder='Robin Miller' value={name} onChange={event => setName(event.target.value)}/>
         </label>
         <label>
           Your Email: 
