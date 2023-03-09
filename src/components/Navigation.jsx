@@ -1,5 +1,7 @@
 import {useLocation} from 'react-router-dom'
 
+import '../assets/style/navigation.css'
+
 const Navigation = () => {
 
   const location = useLocation()

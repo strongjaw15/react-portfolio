@@ -1,0 +1,44 @@
+.about-page {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 73vh;
+  gap: 1.5rem;
+}
+
+.profile-picture {
+  max-width: 100%;
+  max-height: auto;
+  border-radius: 50%;
+}
+
+.profile-picture-container {
+  width: 30rem
+}
+
+.about-me {
+  width: 50%;
+}
+
+.about-me h2 {
+  text-align: center;
+}
+
+.about-me p {
+  padding-bottom: .5rem;
+}
+
+  @media screen and (max-width: 992px) {
+    .about-page {
+      flex-direction: column;
+      height: auto;
+    }
+
+    .about-me {
+      width: 80%;
+    }
+
+    .profile-picture-container {
+      width: 80vw
+    }
+  }

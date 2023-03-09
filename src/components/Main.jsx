@@ -1,3 +1,5 @@
+import '../assets/style/main.css'
+
 const Main = ({children}) => {
   return (
     <main>

@@ -5,7 +5,12 @@ import theBarstoolImage from '../assets/images/the-barstool.png'
 import timedQuizImage from '../assets/images/timed-quiz.png'
 import weatherAppImage from '../assets/images/weather-app.png'
 
-// import '../assets/style/project.css'
+
+// const images = {
+//   asteroidsImage
+
+// }
+import '../assets/style/project.css'
   
 const Project = (props) => {
   

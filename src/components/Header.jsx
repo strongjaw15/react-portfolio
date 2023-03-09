@@ -1,3 +1,5 @@
+import '../assets/style/header.css'
+
 const Header = ({children}) => {
   return (
     <header>

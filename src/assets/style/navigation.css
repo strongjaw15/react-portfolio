@@ -1,0 +1,35 @@
+nav {
+  display: flex;
+}
+
+nav a {
+outline: 2px solid black;
+padding: 1rem;
+width: 6rem;
+text-align: center;
+background-color: lightgrey;
+text-decoration: none;
+color: black;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+nav a:hover {
+  background-color: rgb(138, 138, 138);
+}
+
+.active {
+  background-color: darkgrey;
+}
+
+@media screen and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+  }
+
+  nav a {
+    width: 50vw;
+    height:1vh;
+  }
+}
