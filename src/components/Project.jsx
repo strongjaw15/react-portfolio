@@ -5,11 +5,6 @@ import theBarstoolImage from '../assets/images/the-barstool.png'
 import timedQuizImage from '../assets/images/timed-quiz.png'
 import weatherAppImage from '../assets/images/weather-app.png'
 
-
-// const images = {
-//   asteroidsImage
-
-// }
 import '../assets/style/project.css'
   
 const Project = (props) => {
@@ -17,19 +12,9 @@ const Project = (props) => {
   const project = props.propsObject.project
     
   return (
-    <div className='project'
-    //  style={{
-    //   backgroundImage: `url(${
-    //     (project.pictureName === 'asteroids') ? asteroidsImage :
-    //     (project.pictureName === 'social-network-api') ? socialNetworkApiImage :
-    //     (project.pictureName === 'team-profile-generator') ? teamProfileGeneratorImage :
-    //     (project.pictureName === 'the-barstool') ? theBarstoolImage :
-    //     (project.pictureName === 'timed-quiz') ? timedQuizImage : weatherAppImage
-    //   })`
-    // }}
-    >
+    <div className='project'>
       <div className='container'>
-      <a href={project.github}><h3>{project.name}</h3></a>
+      <a href={project.github}><h3 className='special-effect'>{project.name}</h3></a>
       </div>
       <div className='polaroid'>
         <img src={(project.pictureName === 'asteroids') ? asteroidsImage :
@@ -40,8 +25,8 @@ const Project = (props) => {
       </div>
       <div className='container'>
         <p>{project.description}</p>
-        {project.url ? (<a href={project.url}>Deployed Site</a>) : ''}
-        {project.video ? (<a href={project.video}>Video</a>) : ''}
+        {project.url ? (<a href={project.url} className='special-effect'>Deployed Site</a>) : ''}
+        {project.video ? (<a href={project.video} className='special-effect'>Video</a>) : ''}
       </div>
     </div>
   )

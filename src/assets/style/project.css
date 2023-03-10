@@ -1,8 +1,11 @@
 .project {
   width: 40rem;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border: 2px solid rgb(165, 165, 165);
+  border-radius: 12px;
 }
 
 div.polaroid {
@@ -10,6 +13,7 @@ div.polaroid {
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
+  margin-top: 2px;
 }
 
 div.polaroid img {
@@ -20,4 +24,22 @@ div.polaroid img {
 div.container {
   text-align: center;
   padding: 10px 20px;
+  width: 80%;
+}
+
+.container a, h3 {
+  text-decoration: underline;
+}
+
+.special-effect {
+  box-shadow: inset 0 0 0 0 #a4dff5;
+  color: #000000;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  border-radius: 5px;
+}
+.special-effect:hover {
+  box-shadow: inset 600px 100px 0 0 #1d576d;
+  color: white;
 }

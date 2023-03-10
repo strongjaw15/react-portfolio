@@ -1,6 +1,10 @@
 .projects {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 2rem;
   justify-content: space-evenly;
+}
+
+.portfolio-page {
+  text-align: center;
 }

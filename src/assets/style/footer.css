@@ -12,10 +12,6 @@ footer {
   background-color: white;
 }
 
-footer nav {
-  margin-right: 2.9rem;
-}
-
 footer nav a {
   outline: 2px solid black;
   padding: 1rem;

@@ -5,7 +5,8 @@ nav {
 nav a {
 outline: 2px solid black;
 padding: 1rem;
-width: 6rem;
+width: 8rem;
+height: 3rem;
 text-align: center;
 background-color: lightgrey;
 text-decoration: none;
