@@ -1,28 +1,22 @@
 import React from "react";
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {Header, Navigation, Main, Footer} from './components'
 import {HomePage, AboutPage, PortfolioPage, ContactPage, ResumePage, NotFoundPage} from './pages'
 import './App.css';
 
 function App() {
   return (
-    <Router basename="/react-portfolio">
+    <>
       <Header>
         <Navigation />
       </Header>
       <Main>
-        <Routes>
-          {/* <Route path='/' element={<HomePage />} /> */}
-          <Route path='/' element={<AboutPage />} />
-          <Route path='/portfolio' element={<PortfolioPage />} />
-          <Route path='/contact' element={<ContactPage />} />
-          <Route path='/resume' element={<ResumePage />} />
-
-          <Route path='*' element={<NotFoundPage />} />
-        </Routes>
+        {window.location.href === 'https://strongjaw15.github.io/react-portfolio/' && (<AboutPage />)}
+        {window.location.href === 'https://strongjaw15.github.io/react-portfolio/portfolio' && (<PortfolioPage />)}
+        {window.location.href === 'https://strongjaw15.github.io/react-portfolio/contact' && (<ContactPage />)}
+        {window.location.href === 'https://strongjaw15.github.io/react-portfolio/resume' && (<ResumePage />)}
       </Main>
       <Footer />
-    </Router>
+    </>
   );
 }
 
