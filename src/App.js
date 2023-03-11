@@ -1,12 +1,12 @@
 import React from "react";
-import {HashRouter as Router, Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import {Header, Navigation, Main, Footer} from './components'
 import {HomePage, AboutPage, PortfolioPage, ContactPage, ResumePage, NotFoundPage} from './pages'
 import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/react-portfolio">
       <Header>
         <Navigation />
       </Header>
