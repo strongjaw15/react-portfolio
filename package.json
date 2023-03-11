@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://strongjaw15.github.io/react-portfolio",
+  "homepage": "https://strongjaw15.github.io/react-portfolio/#",
   "dependencies": {
     "@cyntler/react-doc-viewer": "^1.11.0",
     "@testing-library/jest-dom": "^5.16.5",
