@@ -10,10 +10,10 @@ const Navigation = () => {
   return (
     <nav>
       {/* <a href="/" className={location.pathname === '/' ? 'active' : ''}>Home</a> */}
-      <a href="/" className={location === '/' ? 'active' : ''}>About Me</a>
-      <a href="/portfolio" className={location === '/portfolio' ? 'active' : ''}>Portfolio</a>
-      <a href="/contact" className={location === '/contact' ? 'active' : ''}>Contact</a>
-      <a href="/resume" className={location === '/resume' ? 'active' : ''}>Resume</a>
+      <a href="/" className={location === 'https://strongjaw15.github.io/react-portfolio/' ? 'active' : ''}>About Me</a>
+      <a href="/portfolio" className={location === 'https://strongjaw15.github.io/react-portfolio/portfolio' ? 'active' : ''}>Portfolio</a>
+      <a href="/contact" className={location === 'https://strongjaw15.github.io/react-portfolio/contact' ? 'active' : ''}>Contact</a>
+      <a href="/resume" className={location === 'https://strongjaw15.github.io/react-portfolio/resume' ? 'active' : ''}>Resume</a>
     </nav>
   )
 }
