@@ -1,19 +1,17 @@
-import {useLocation} from 'react-router-dom'
-
 import '../assets/style/navigation.css'
 
-const Navigation = () => {
+const Navigation = ({fakeLocation, setFakeLocation}) => {
 
-  // const location = useLocation()
-  const location = window.location.href
+  const handleClick = (location) => {
+    setFakeLocation(location)
+  }
 
   return (
     <nav>
-      {/* <a href="/" className={location.pathname === '/' ? 'active' : ''}>Home</a> */}
-      <a href="/" className={location === 'https://strongjaw15.github.io/react-portfolio/' ? 'active' : ''}>About Me</a>
-      <a href="/portfolio" className={location === 'https://strongjaw15.github.io/react-portfolio/portfolio' ? 'active' : ''}>Portfolio</a>
-      <a href="/contact" className={location === 'https://strongjaw15.github.io/react-portfolio/contact' ? 'active' : ''}>Contact</a>
-      <a href="/resume" className={location === 'https://strongjaw15.github.io/react-portfolio/resume' ? 'active' : ''}>Resume</a>
+      <a onClick={() => {handleClick('about')}} className={fakeLocation === 'about' ? 'active' : ''}>About Me</a>
+      <a onClick={() => {handleClick('portfolio')}} className={fakeLocation === 'portfolio' ? 'active' : ''}>Portfolio</a>
+      <a onClick={() => {handleClick('contact')}} className={fakeLocation === 'contact' ? 'active' : ''}>Contact</a>
+      <a onClick={() => {handleClick('resume')}} className={fakeLocation === 'resume' ? 'active' : ''}>Resume</a>
     </nav>
   )
 }
