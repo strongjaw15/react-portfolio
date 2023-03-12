@@ -24,7 +24,7 @@ const Project = (props) => {
         (project.pictureName === 'timed-quiz') ? timedQuizImage : weatherAppImage} alt={project.alt} />
       </div>
       <div className='container'>
-        <p>{project.description}</p>
+        <p className='two-line'>{project.description}</p>
         {project.url ? (<a href={project.url} className='special-effect'>Deployed Site</a>) : ''}
         {project.video ? (<a href={project.video} className='special-effect'>Video</a>) : ''}
       </div>
