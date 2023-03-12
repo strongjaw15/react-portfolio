@@ -15,7 +15,7 @@
 
 ## Description
 
-This is my portfolio page, written with React! I wanted to make an update portfolio page to showcase some of the projects I have made during school and to display a short bio as well as my resume. I also wanted to provide a way for users to contact me by way of a contact form. The website itself is a showcase of something I built using React, which I learned a lot about while working on this project.
+This is my portfolio page, written with React! I wanted to make an updated portfolio page to showcase some of the projects I have made during school and to display a short bio as well as my resume. I also wanted to provide a way for users to contact me by way of a contact form. The website itself is a showcase of something I built using React, which I learned a lot about while working on this project.
 
 ### Post Script
 
