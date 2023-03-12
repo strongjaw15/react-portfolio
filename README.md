@@ -19,7 +19,7 @@ This is my portfolio page, written with React! I wanted to make an update portfo
 
 ### Post Script
 
-When I initially thought that I had built this site to completiong I was using react-router. But I was required to deploy this project to GitHub pages, and there are severe compatability issues between GH Pages and react-router that I was not able to overcome. So I tried to make my own 'routing' using window.location.href but ran into what I suspect are the same core reasons that react-router doesn't work. So I got rid of routing totally and set up a fakeLocation stateful variable that is set by onClick events in my nav bar. Throughout the code there may still be remnants of my two different routing attempts.
+When I initially thought that I had built this site to completion I was using react-router. But I was required to deploy this project to GitHub pages, and there are severe compatability issues between GH Pages and react-router that I was not able to overcome. So I tried to make my own 'routing' using window.location.href but ran into what I suspect are the same core reasons that react-router doesn't work. So I got rid of routing totally and set up a fakeLocation stateful variable that is set by onClick events in my nav bar. Throughout the code there may still be remnants of my two different routing attempts.
 
 ## Visuals
 
