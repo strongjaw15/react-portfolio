@@ -29,7 +29,7 @@ When I initially thought that I had built this site to completiong I was using r
 
 https://github.com/strongjaw15/react-portfolio
 
-https://strongjaw15.github.io/react-app
+https://strongjaw15.github.io/react-portfolio/
 
 ## License
 
